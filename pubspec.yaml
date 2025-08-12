@@ -1,0 +1,18 @@
+name: olx_otomoto_alerts
+description: Personal alerts app for OLX and Otomoto (local scraping + price history)
+version: 0.1.0
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.14.0
+  html: ^0.15.4
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.15
+  fl_chart: ^0.60.0
+  shared_preferences: ^2.1.1
+
+flutter:
+  uses-material-design: true
